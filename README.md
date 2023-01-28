@@ -1,27 +1,10 @@
-# Stackbit Next.js + TypeScript + MUI Starter
+# Full Next.js Stackbit Starter
 
-<div style="text-align: center">
+![Full Stackbit Starter](https://assets.stackbit.com/docs/full-starter-thumb.png)
 
-![Next.js + TS + MUI Stackbit Starter](https://assets.stackbit.com/docs/ts-nextjs-starter-thumb.png)
+This is a multi-page, production-ready project built with Next.js and Tailwind, equipped with visual editing capabilities using Stackbit. It uses markdown files as the content source. See below for [other Stackbit example projects](#other-stackbit-projects).
 
-</div>
-
-This is a minimal starting point for new Stackbit projects. It is built with Next.js, TypeScript, and [MUI](https://mui.com/), and is equipped with visual editing capabilities using Stackbit. It uses markdown files as the content source. See below for [other Stackbit example projects](#other-stackbit-projects).
-
-**⚡ Demo:** [stackbit-ts-mui-nextjs-starter.netlify.app](https://stackbit-ts-mui-nextjs-starter.netlify.app/)
-
-
-## Features
-
-This is meant to be a simple starting point that demonstrates the use of bringing your own component library, such as MUI.
-
-In addition to MUI support, this project contains the following:
-
-- **Flexible Pages:** Simple and flexible page model that lets editors add new pages.
-- **Basic Components:** A few basic components to add to new pages.
-- **Layout Elements:** Header and footer elements automatically added to pages.
-- **Component & Template Presets:** Predefined arrangements of content and components for faster editing. [Learn more](https://docs.stackbit.com/conceptual-guides/content-presets/).
-- **TypeScript Support:** Components and content are type-safe. (See `types` directory for definitions.)
+**⚡ Demo:** [starter-nextjs.stackbit.app](https://starter-nextjs.stackbit.app/)
 
 ## Getting Started
 
@@ -30,7 +13,7 @@ The typical development process is to begin by working locally.
 Create local Stackbit project from this repo:
 
 ```txt
-npx create-stackbit-app@latest --starter ts-nextjs
+npx create-stackbit-app@latest --starter full-nextjs
 ```
 
 Run the Next.js development server:
